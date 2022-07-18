@@ -1,9 +1,6 @@
 def pierwsza(n):
 
-    # Po wprowadzeniu liczby typu np. float liczba konwertuje się na int
-    n = int(n)
-
-    # Jeśli liczba jest mniejsza od 1 lub równa 0 zwróć komunikat o wprowadzenia poprawnej liczby
+    # Jeśli liczba jest mniejsza od 1, równa 0 lub jest innego typu niż int zwróć komunikat o wprowadzenia poprawnej liczby
     if n == 0:
         return "!!!!Liczba nie może być zerem!!!!"
     if n < 1:
