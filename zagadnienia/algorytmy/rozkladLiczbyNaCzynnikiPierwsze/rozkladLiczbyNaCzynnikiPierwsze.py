@@ -3,7 +3,7 @@ def rozloz(n):
     # Stworzenie kopi liczby n 
     d = n
 
-    # Tworzenie pustej tablicy 'czynniki' oraz zmiennej pomocniczej 'k'
+    # Tworzenie pustej tablicy oraz zmiennej 'k' żeby ją potem wykorzystać w roli dzielnika
     nums = []
     k = 2
     
