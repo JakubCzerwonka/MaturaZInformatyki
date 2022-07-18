@@ -8,6 +8,8 @@ def pierwsza(n):
         return "!!!!Liczba nie może być zerem!!!!"
     if n < 1:
         return "!!!!Wprowadź liczbę całkowitą naturalną!!!!"
+    if n != type(int):
+        return "!!!!Wprowadź liczbę całkowitą naturalną!!!!"
     
 
     # Utworzenie tablicy do której będą dodawane dzielniki liczby n
