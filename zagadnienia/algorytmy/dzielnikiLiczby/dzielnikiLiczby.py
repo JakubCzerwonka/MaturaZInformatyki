@@ -8,10 +8,8 @@ def dzielniki(n):
     if type(n) != int:
         return "!!!!Wprowadź liczbę całkowitą naturalną!!!!"
 
-    # Utworzenie tablicy do której będą dodawane dzielniki liczby n
+    # Utworzenie tablicy do której będą dodawane dzielniki liczby n, oraz stworzenie zmiennej 'k', żeby ją potem wykorzystać w roli dzielnika
     nums = []
-    
-    # Dzielnik początkowy
     k = 1
 
     # Wykonuj pętle dopóki liczba jest większa lub równa od dzielnika
