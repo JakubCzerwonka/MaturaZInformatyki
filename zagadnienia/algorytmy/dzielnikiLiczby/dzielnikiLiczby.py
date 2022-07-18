@@ -1,13 +1,12 @@
 def dzielniki(n):
 
-    # Po wprowadzeniu liczby typu np. float liczba konwertuje się na int
-    n = int(n)
-    
-    # Jeśli liczba jest mniejsza od 1 zwróć komunikat o wprowadzenia poprawnej liczby
-    if n < 1:
-        return "!!!!Wprowadź liczbę całkowitą naturalną!!!!"
+    # Jeśli liczba jest mniejsza od 1, równa 0 lub jest innego typu niż int zwróć komunikat o wprowadzenia poprawnej liczby
     if n == 0:
         return "!!!!Liczba nie może być zerem!!!!"
+    if n < 1:
+        return "!!!!Wprowadź liczbę całkowitą naturalną!!!!"
+    if n != type(int):
+        return "!!!!Wprowadź liczbę całkowitą naturalną!!!!"
 
     # Utworzenie tablicy do której będą dodawane dzielniki liczby n
     nums = []
