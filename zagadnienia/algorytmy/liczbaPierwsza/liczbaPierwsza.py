@@ -31,7 +31,8 @@ def pierwsza(n):
 
     # Jeśli liczba ma tylko dwa dzielniki (1 i samą siebie), to jest liczbą pierwszą. W przypadku liczby 1 ma ona tylko jeden dzielnik.
     if len(nums) <= 1:
-        return "Liczba: ", n, "Rodzaj: ", "Pierwsza"
+        return "Liczba: ", n, "jest liczbą pierwszą"
     # Jeśli liczba ma więcej niż dwa dzielniki, to jest liczbą złożoną.
     if len(nums) > 1:
-        return "Liczba: ", n, "Rodzaj: ", "Złożona"
+        return "Liczba: ", n, "jest liczbą złożoną"
+    
