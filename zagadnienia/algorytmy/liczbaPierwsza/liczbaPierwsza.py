@@ -8,7 +8,7 @@ def pierwsza(n):
         return "!!!!Wprowadź liczbę całkowitą naturalną!!!!"
 
     nums = []
-    k = 2
+    k = 1
 
     # Wykonuj pętle dopóki liczba jest większa lub równa od dzielnika
     while n >= k:
@@ -21,7 +21,7 @@ def pierwsza(n):
 
         k += 1      
 
-		# Funkcja która sortuje liczby od najmniejszej do największej.
+    # Funkcja która sortuje liczby od najmniejszej do największej.
     nums.sort()
 
     # Jeśli liczba ma tylko dwa dzielniki (1 i samą siebie), to jest liczbą pierwszą. W przypadku liczby 1 ma ona tylko jeden dzielnik.
