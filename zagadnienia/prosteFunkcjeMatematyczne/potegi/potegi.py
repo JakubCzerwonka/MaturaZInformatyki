@@ -1,7 +1,7 @@
 # Funkcje definiowane przez użytkownika
 def potegowanieDoDrugiej(n):
 
-    return n * n
+    return n ** 2
 
 def potegowanieDoTrzeciej(n):
 
