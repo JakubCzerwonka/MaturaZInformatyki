@@ -14,7 +14,7 @@ def dzielniki(n):
 
     # Wykonuj pętle dopóki liczba jest większa lub równa od dzielnika
     while n >= k:
-        # Wykonuj pętle dopóki reszta z dzielenia liczba n przez k będzie równa 0.
+        # Wykonuj pętle dopóki reszta z dzielenia liczby n przez k będzie równa 0.
         while n % k == 0:
             
             nums.append(k)
