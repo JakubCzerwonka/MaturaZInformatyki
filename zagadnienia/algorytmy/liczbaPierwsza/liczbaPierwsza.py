@@ -33,3 +33,8 @@ def pierwsza(n):
     # Jeśli liczba ma więcej niż dwa dzielniki, to jest liczbą złożoną.
     if len(nums) > 2:
         return "Liczba: ", n, "jest liczbą złożoną"
+
+    
+x = int(input("Podaj liczbę: "))
+
+print(pierwsza(x))
