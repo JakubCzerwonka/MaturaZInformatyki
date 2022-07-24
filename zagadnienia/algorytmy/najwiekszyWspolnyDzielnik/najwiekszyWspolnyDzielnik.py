@@ -52,3 +52,9 @@ def nwd(x, y):
     
     # Zwraca największą liczbę z tablicy numsD (największy wspólny dzielnik liczb x i y)
     return max(numsD)
+
+
+x = int(input("Podaj pierwszą liczbe: "))
+y = int(input("Podaj pierwszą liczbe: "))
+
+print(najwiekszy(x, y))
