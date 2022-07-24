@@ -35,6 +35,6 @@ def pierwsza(n):
         return "Liczba: ", n, "jest liczbą złożoną"
 
     
-x = int(input("Podaj liczbę: "))
+x = int(input("Podaj liczbe: "))
 
 print(pierwsza(x))
