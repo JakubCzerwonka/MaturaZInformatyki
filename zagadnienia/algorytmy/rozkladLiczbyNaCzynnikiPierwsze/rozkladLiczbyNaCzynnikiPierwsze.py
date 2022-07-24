@@ -31,3 +31,8 @@ def rozloz(n):
     
 
     return nums
+
+
+x = int(input("Podaj liczbe ktora chcesz rozlozyc na czynniki pierwsze: "))
+
+print(rozloz(x))
