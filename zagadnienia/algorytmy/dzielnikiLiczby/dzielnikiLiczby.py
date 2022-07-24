@@ -27,3 +27,8 @@ def dzielniki(n):
 
     # Zwraca tablice dzielników liczby n
     return nums
+
+
+x = input("Podaj liczbę z której chcesz otrzymać dzielniki: ")
+
+print(dzielniki(x))
