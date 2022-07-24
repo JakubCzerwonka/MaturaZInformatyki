@@ -29,6 +29,6 @@ def dzielniki(n):
     return nums
 
 
-x = input("Podaj liczbę z której chcesz otrzymać dzielniki: ")
+x = int(input("Podaj liczbę z której chcesz otrzymać dzielniki: "))
 
 print(dzielniki(x))
