@@ -1,4 +1,4 @@
-def najwiekszy(x, y):
+def nwd(x, y):
 
     # Jeśli liczba jest mniejsza od 1, równa 0 lub jest innego typu niż int zwróć komunikat o wprowadzenia poprawnej liczby
     if x == 0:
