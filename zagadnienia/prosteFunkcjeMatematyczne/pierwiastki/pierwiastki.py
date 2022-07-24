@@ -1,6 +1,8 @@
 # Importowanie funkcji sqrt() z modułu math
 from math import sqrt
 
-# Wyświetlanie pierwiastka z liczby 9 i 4
-print(sqrt(9))
-print(sqrt(4))
+# Pobieranie od użytkownika liczby 
+x = float(input("Podaj liczbe: "))
+
+# Wyświetlanie pierwiastka z liczby
+print(sqrt(x))
