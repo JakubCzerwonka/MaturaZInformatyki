@@ -12,9 +12,7 @@ def nwd(x, y):
 # Funkcja zwracająca najmniejszą wspólną wielokrotność liczb n i k
 def nww(n, k):
 
-    nwwR = nwd(n, k)
-
-    wynik = n * k // nwwR
+    wynik = n * k // nwd(n, k)
 
     return wynik
 
