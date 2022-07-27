@@ -12,7 +12,7 @@ def nwd(x, y):
 # Funkcja zwracająca najmniejszą wspólną wielokrotność liczb n i k
 def nww(n, k):
 
-    wynik = n * k // nwd(n, k)
+    wynik = n * k // nwd(n, k)              # Iloczyn liczb n i k dzielimy przez Największy Wspólny Dzielnik liczb n i k
 
     return wynik
 
