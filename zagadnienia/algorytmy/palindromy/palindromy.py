@@ -10,3 +10,4 @@ def palindrom(n):
 
 x = input("Wpisz slowo: ")
 print(palindrom(x))
+ 
