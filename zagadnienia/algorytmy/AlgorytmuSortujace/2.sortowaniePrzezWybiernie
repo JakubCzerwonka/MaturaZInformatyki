@@ -1,20 +1,20 @@
 def sortowaniePrzezWybieranie(A):
 
     n = len(A)
-    i = 0                                       # Stworzenie iteratora [iterator I odpowada za ilość wykonanych pętli]
+    i = 0                                       
 
-    while i < n - 1:                            # Pętla działa dopóki element tablicy jest mniejszy od rozmiaru tablicy ( do przedostatniego elementu)
+    while i < n - 1:                            
      
-        min = i                                 # Stworzenie pomocniczej zmiennej min która przedszymuje index najmniejszego element 
-        j = i + 1                               # Stworzenie iteratora [iterator J porusza się po indeksach tablicy] (Będzie zawsze odpowiadać o element o jeden większy od i)
+        min = i                                 
+        j = i + 1                               
         
-        while j < n:                            # Pętla działa dopóki element tablicy jest mniejszy od rozmiaru tablicy                                         |
-            if A[min] > A[j]:                   # Jeśli element A[j] (ten po prawej) będzie mniejszy od A[min]. True = znaleziono mniejszy element od A[min]    | Szukanie najmniejszego elementu
-                min = j                         # Ustaw go najmniejszym elementem                                                                               |
-            j += 1                              # Przejdź do następnego elementu                                                                                 
+        while j < n:                                                                
+            if A[min] > A[j]:                   
+                min = j                                                                            
+            j += 1                                                                                                             
         
-        if i != min:                            # Jeśli i nie będzie najmniejszym elementem                                                                      
-            A[i], A[min] = A[min], A[i]         # Zamień miejscami aktualny najmniejszy element z poprzednim najmniejszym elemenetem                            |
-        i += 1                                  # Zmiana elementu                                                                                               | Jeśli w poprzednim if znaleziony został mniejszy element to go zamień miejscami
+        if i != min:                                                                                                  
+            A[i], A[min] = A[min], A[i]                                   
+        i += 1                                                                                                                                
     
     return A
